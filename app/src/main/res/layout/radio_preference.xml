@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="onRadioButtonClicked"
+        android:text="hello" />
+
+    <RadioButton
+        android:id="@+id/world"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="onRadioButtonClicked"
+        android:text="world" />
+
+</RadioGroup>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="enable"
+        android:summary="summary"
+        android:title="title" />
+
+    <com.mccc.radiopreference.RadioPreference
+        android:key="style"/>
+
+</PreferenceScreen>
